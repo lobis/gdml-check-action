@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check-GDML-file
     steps:
-    - name: Hello world action step
+    - name: GDML-Check
       id: hello
       uses: actions/check-gdml-action@v0
       with:
