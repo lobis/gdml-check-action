@@ -9,6 +9,6 @@ jobs:
     steps:
     - name: GDML-Check
       id: hello
-      uses: actions/gdml-check-action@v0
+      uses: gdml-check-action/gdml-check-action@v0
       with:
         gdml-file: "test.gdml"
