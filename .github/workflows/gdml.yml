@@ -5,7 +5,7 @@ on: [push]
 jobs:
   Check GDML:
     runs-on: ubuntu-latest
-    name: Check GDML file
+    name: Check-GDML-file
     steps:
     - name: Hello world action step
       id: hello
