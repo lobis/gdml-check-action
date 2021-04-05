@@ -1,0 +1,13 @@
+# action.yml
+name: "Check GDML with ROOT"
+description: "Check a GDML with ROOT TGeoManager::Import"
+inputs:
+  gdml-file:
+    description: "File to check"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.gdml-file }}
